@@ -1,6 +1,10 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+/* * * * * * * * * * *
+* @author Ethan Yu
+* * * * * * * * * * * */
+
 public class PercolationBFS extends PercolationDFSFast{
     private int[] rowChanger = {1, -1, 0, 0};
     private int[] colChanger = {0, 0, 1, -1};
