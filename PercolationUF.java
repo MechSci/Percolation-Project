@@ -1,3 +1,7 @@
+/* * * * * * * * * * * *
+* @author Ethan Yu
+* * * * * * * * * * * */
+
 public class PercolationUF implements IPercolate{
     private boolean[][] myGrid;
     private int myOpenCount;
